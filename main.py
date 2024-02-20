@@ -1,10 +1,11 @@
-from src.Animal import Animal
+from src.Lions import Lions
+from src.Birds import Birds
 
 def main():
-    lion = Animal("Mamel", "Yellow", "King")
-    bird = Animal("Bird", "Black", "sam")
+    lion = Lions("Mamel", "Yellow", "King")
+    bird = Birds("Bird", "Black", "sam")
 
-    print(lion.run(lion.name))
-    print(bird.fly(bird.name))
+    lion.run()
+    bird.fly()
 
 main()

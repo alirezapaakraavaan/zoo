@@ -4,12 +4,13 @@ class Animal():
         self.color = color
         self.name = name
 
-    def fly(self, name):
-        return f"{self.name} flys"
+    def fly(self):
+        print("Not Defined")
     
 
-    def run(self, name):
-        return f"{self.name} runs"
+    def run(self):
+        print("Not Defined")
+
     
     def __repr__(self) -> str:
-        return None
+        return "Error"

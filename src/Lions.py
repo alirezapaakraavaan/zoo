@@ -2,5 +2,8 @@ from src.Animal import Animal
 
 class Lions(Animal):
 
-    def __repr__(self, name) -> str:
-        return f"{name} runs"
+    def run(self):
+        print(f"{self.name} runs")
+
+    def __repr__(self) -> str:
+        return f"{self.name} runs"
